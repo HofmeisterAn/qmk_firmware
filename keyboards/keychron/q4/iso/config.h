@@ -16,6 +16,9 @@
 
 #pragma once
 
+/* Enable unicode input mode */
+#define UNICODE_SELECTED_MODES UNICODE_MODE_MACOS, UNICODE_MODE_WINCOMPOSE
+
 /* RGB Matrix Driver Configuration */
 #define DRIVER_COUNT 1
 #define DRIVER_ADDR_1 0b1110100
